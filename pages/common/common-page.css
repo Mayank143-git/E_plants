@@ -1,0 +1,73 @@
+/* Styling for the cards */
+.card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px; /* Set a fixed width */
+    height: 350px; /* Set a fixed height */
+    display: inline-block;
+    box-sizing: border-box; /* Ensures padding and borders don't affect the width/height */
+    overflow: hidden; /* Ensure content doesn't overflow the card */
+}
+
+.card img {
+    width: 100%;
+    height: 200px; /* Fixed height for image */
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 14px;
+}
+
+.card button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100%; /* Ensure button takes full width of the card */
+}
+
+.card button:hover {
+    background-color: #45a049;
+}
+
+/* Make the cards responsive */
+@media (max-width: 1024px) {
+    .card {
+        width: 220px; /* Decrease width on smaller screens */
+        height: 320px; /* Decrease height on smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 200px; /* Decrease width further on smaller tablets */
+        height: 300px; /* Adjust height */
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: 180px; /* Decrease width for small mobile devices */
+        height: 280px; /* Adjust height for mobile */
+    }
+}
+
+/* Container for cards to allow proper wrapping */
+#category-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the cards in the container */
+}

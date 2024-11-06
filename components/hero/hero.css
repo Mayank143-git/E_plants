@@ -1,97 +1,63 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-
-
-
+/* Hero Section */
 .hero {
-    
     display: flex;
-    width: 100%;
-    height: 100%;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    margin: auto;
-}
-
-.left-side, .right-side {
-    flex: 1;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex: 1;
-    padding: 20px;
-    display: flex;
-    
- 
-}
-
-.left-side {
-    /* background-color: #4a90e2; */
-   
-    text-align: center;
-    /* background-color: #4a90e2; */
-    color: white;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRCqu-rNwuqoXZu6mVuUUf7iMxR6_8S87LTQ&s);
-    background-repeat: no-repeat;
-    background-size: cover;
-    backdrop-filter: brightness(-71.5);
-    background-size: cover;
-    background-position: center;
-    
-}
-    
-
-
-.right-side {
-    background-color: #50bfe387;
-    color: white;
-    position: relative;
-    animation: king 6s , 2s ;
-}
-    
-
-@keyframes king {
-    to{
-       
-        transform: rotateY(0deg);
-        
-    }
-    from
-    {
-        transform: rotateY(180deg);
-        
-
-
-    }
-}
-
-.animated-text {
-    opacity: 0;
-    transform: translateY(20px);
-    animation: fadeInUp 1s forwards;
-}
-
-@keyframes fadeInUp {
-    to {
-    
-        opacity: 1;
-        transform: translateY(23);
-    }
-    
-    
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 20px;
+    background-color: #f3f3f3;
+  }
   
-}
-
-.animated-text:nth-child(1) {
-    animation-delay: 4s;
-}
-
-.animated-text:nth-child(2) {
-    animation-delay: 4.5s;
-}
+  .hero-content {
+    max-width: 50%;
+  }
+  
+  .hero-content h1 {
+    font-size: 36px;
+    color: #4CAF50;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    color: #333;
+    margin: 20px 0;
+    line-height: 1.6;
+  }
+  
+  .hero-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .hero-button:hover {
+    background-color: #45a049;
+  }
+  
+  .hero-image img {
+    width: 250px;       /* Fixed width */
+    height: 250px;      /* Fixed height to ensure circular shape */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover;  /* Ensures the image covers the circular frame */
+    border: 4px solid #4CAF50; /* Optional: green border for styling */
+  }
+  
+  /* Responsive Hero Section */
+  @media (max-width: 768px) {
+    .hero {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .hero-content {
+      max-width: 100%;
+    }
+  
+    .hero-image {
+      margin-top: 20px;
+    }
+  }
+  

@@ -1,0 +1,111 @@
+[
+    {
+        "name": "Carrot",
+        "description": "A crunchy, sweet root vegetable rich in beta-carotene.",
+        "image": "images/carrot.jpg",
+        "status": "available",
+        "color": "orange",
+        "price": 0.80,
+        "season": "All time"
+    },
+    {
+        "name": "Broccoli",
+        "description": "A green vegetable with a tree-like structure, high in fiber and vitamins.",
+        "image": "images/broccoli.jpg",
+        "status": "available",
+        "color": "green",
+        "price": 1.50,
+        "season": "All time"
+    },
+    {
+        "name": "Spinach",
+        "description": "A leafy green vegetable packed with iron and vitamins.",
+        "image": "images/spinach.jpg",
+        "status": "not available",
+        "color": "green",
+        "price": 1.20,
+        "season": "Winter"
+    },
+    {
+        "name": "Bell Pepper",
+        "description": "A sweet, crunchy vegetable that comes in various colors like red, yellow, and green.",
+        "image": "images/bell_pepper.jpg",
+        "status": "available",
+        "color": "red",
+        "price": 1.00,
+        "season": "Summer"
+    },
+    {
+        "name": "Tomato",
+        "description": "A juicy fruit often treated as a vegetable, used in various dishes.",
+        "image": "images/tomato.jpg",
+        "status": "available",
+        "color": "red",
+        "price": 0.90,
+        "season": "Summer"
+    },
+    {
+        "name": "Potato",
+        "description": "A versatile tuber vegetable rich in carbohydrates, ideal for many recipes.",
+        "image": "images/potato.jpg",
+        "status": "available",
+        "color": "brown",
+        "price": 0.60,
+        "season": "All time"
+    },
+    {
+        "name": "Onion",
+        "description": "A flavorful vegetable with layers, commonly used as a base for cooking.",
+        "image": "images/onion.jpg",
+        "status": "available",
+        "color": "yellow",
+        "price": 0.70,
+        "season": "All time"
+    },
+    {
+        "name": "Cucumber",
+        "description": "A cool, refreshing vegetable often eaten raw or in salads.",
+        "image": "images/cucumber.jpg",
+        "status": "available",
+        "color": "green",
+        "price": 0.50,
+        "season": "Summer"
+    },
+    {
+        "name": "Cauliflower",
+        "description": "A white, crunchy vegetable that can be used as a rice substitute.",
+        "image": "images/cauliflower.jpg",
+        "status": "not available",
+        "color": "white",
+        "price": 1.40,
+        "season": "Winter"
+    },
+    {
+        "name": "Eggplant",
+        "description": "A purple vegetable with a spongy texture, great for grilling and roasting.",
+        "image": "images/eggplant.jpg",
+        "status": "available",
+        "color": "purple",
+        "price": 1.10,
+        "season": "Summer"
+    },
+    {
+        "name": "Zucchini",
+        "description": "A green squash that is versatile and can be grilled, roasted, or eaten raw.",
+        "image": "images/zucchini.jpg",
+        "status": "available",
+        "color": "green",
+        "price": 0.90,
+        "season": "Summer"
+    },
+    {
+        "name": "Peas",
+        "description": "Small, round green vegetables that are sweet and often used in soups and stews.",
+        "image": "images/peas.jpg",
+        "status": "available",
+        "color": "green",
+        "price": 0.60,
+        "season": "Spring"
+    }
+  ]
+  

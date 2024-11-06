@@ -1,0 +1,73 @@
+[
+    {
+      "name": "Winter Jasmine",
+      "image": "https://via.placeholder.com/200x200?text=Winter+Jasmine",
+      "description": "A hardy, fragrant shrub that blooms in the winter months.",
+      "season": "Winter",
+      "price": 15.99
+    },
+    {
+      "name": "Pansy",
+      "image": "https://via.placeholder.com/200x200?text=Pansy",
+      "description": "A colorful flower that thrives in the cooler months of winter and early spring.",
+      "season": "Winter",
+      "price": 12.49
+    },
+    {
+      "name": "Primrose",
+      "image": "https://via.placeholder.com/200x200?text=Primrose",
+      "description": "Bright, early-blooming flowers that are perfect for spring gardens.",
+      "season": "Spring",
+      "price": 10.99
+    },
+    {
+      "name": "Tulip",
+      "image": "https://via.placeholder.com/200x200?text=Tulip",
+      "description": "A popular spring flower with vibrant petals in many colors.",
+      "season": "Spring",
+      "price": 14.75
+    },
+    {
+      "name": "Sunflower",
+      "image": "https://via.placeholder.com/200x200?text=Sunflower",
+      "description": "Large, bright yellow flowers that grow best in the summer heat.",
+      "season": "Summer",
+      "price": 9.99
+    },
+    {
+      "name": "Marigold",
+      "image": "https://via.placeholder.com/200x200?text=Marigold",
+      "description": "Hardy, easy-to-grow flowers that bloom in summer and early fall.",
+      "season": "Summer",
+      "price": 8.49
+    },
+    {
+      "name": "Chrysanthemum",
+      "image": "https://via.placeholder.com/200x200?text=Chrysanthemum",
+      "description": "A late-blooming flower that is often seen in the fall, perfect for the cooler weather.",
+      "season": "Fall",
+      "price": 16.99
+    },
+    {
+      "name": "Holly",
+      "image": "https://via.placeholder.com/200x200?text=Holly",
+      "description": "An evergreen shrub with red berries, ideal for winter decoration.",
+      "season": "Winter",
+      "price": 18.50
+    },
+    {
+      "name": "Crocus",
+      "image": "https://via.placeholder.com/200x200?text=Crocus",
+      "description": "One of the first flowers to bloom in spring, signaling the end of winter.",
+      "season": "Spring",
+      "price": 11.25
+    },
+    {
+      "name": "Lavender",
+      "image": "https://via.placeholder.com/200x200?text=Lavender",
+      "description": "A fragrant, hardy plant that thrives in the summer sun.",
+      "season": "Summer",
+      "price": 20.00
+    }
+  ]
+  

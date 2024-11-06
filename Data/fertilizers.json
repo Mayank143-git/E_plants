@@ -1,0 +1,63 @@
+[
+    {
+      "name": "Organic Fertilizer",
+      "image": "https://via.placeholder.com/200x200?text=Organic+Fertilizer",
+      "description": "A natural fertilizer made from plant and animal matter to improve soil health.",
+      "price": 25.99
+    },
+    {
+      "name": "Nitrogen Fertilizer",
+      "image": "https://via.placeholder.com/200x200?text=Nitrogen+Fertilizer",
+      "description": "A fertilizer high in nitrogen, essential for promoting leafy plant growth.",
+      "price": 18.49
+    },
+    {
+      "name": "Phosphorus Fertilizer",
+      "image": "https://via.placeholder.com/200x200?text=Phosphorus+Fertilizer",
+      "description": "Rich in phosphorus, this fertilizer supports root and flower development.",
+      "price": 22.75
+    },
+    {
+      "name": "Potassium Fertilizer",
+      "image": "https://via.placeholder.com/200x200?text=Potassium+Fertilizer",
+      "description": "This fertilizer boosts plant immunity and fruit production.",
+      "price": 20.00
+    },
+    {
+      "name": "Compost Fertilizer",
+      "image": "https://via.placeholder.com/200x200?text=Compost+Fertilizer",
+      "description": "A rich compost fertilizer that improves soil structure and nutrient content.",
+      "price": 15.99
+    },
+    {
+      "name": "Slow Release Fertilizer",
+      "image": "https://via.placeholder.com/200x200?text=Slow+Release+Fertilizer",
+      "description": "Fertilizer that slowly releases nutrients over time for continuous growth.",
+      "price": 30.99
+    },
+    {
+      "name": "Fish Emulsion Fertilizer",
+      "image": "https://via.placeholder.com/200x200?text=Fish+Emulsion+Fertilizer",
+      "description": "A liquid fertilizer made from fish, providing essential nutrients for plants.",
+      "price": 19.99
+    },
+    {
+      "name": "Bone Meal Fertilizer",
+      "image": "https://via.placeholder.com/200x200?text=Bone+Meal+Fertilizer",
+      "description": "High in calcium and phosphorus, this fertilizer strengthens plants and promotes flowering.",
+      "price": 24.50
+    },
+    {
+      "name": "Liquid Fertilizer",
+      "image": "https://via.placeholder.com/200x200?text=Liquid+Fertilizer",
+      "description": "Liquid fertilizer for quick nutrient absorption, ideal for hydroponics.",
+      "price": 21.75
+    },
+    {
+      "name": "Worm Castings Fertilizer",
+      "image": "https://via.placeholder.com/200x200?text=Worm+Castings+Fertilizer",
+      "description": "A natural and organic fertilizer made from worm castings, perfect for enriching soil.",
+      "price": 27.99
+    }
+  ]
+  
