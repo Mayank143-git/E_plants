@@ -1,0 +1,111 @@
+[
+    {
+        "name": "Apple",
+        "description": "A crisp, sweet red fruit high in fiber and vitamins.",
+        "image": "images/apple.jpg",
+        "status": "available",
+        "color": "red",
+        "price": 1.20,
+        "season": "All time"
+    },
+    {
+        "name": "Banana",
+        "description": "A soft, tropical fruit rich in potassium.",
+        "image": "images/banana.jpg",
+        "status": "available",
+        "color": "yellow",
+        "price": 0.50,
+        "season": "All time"
+    },
+    {
+        "name": "Orange",
+        "description": "A juicy citrus fruit full of vitamin C.",
+        "image": "images/orange.jpg",
+        "status": "available",
+        "color": "orange",
+        "price": 0.80,
+        "season": "Winter"
+    },
+    {
+        "name": "Strawberry",
+        "description": "A small, red, sweet fruit with tiny seeds on the outside.",
+        "image": "images/strawberry.jpg",
+        "status": "available",
+        "color": "red",
+        "price": 2.50,
+        "season": "Summer"
+    },
+    {
+        "name": "Grapes",
+        "description": "A small, juicy fruit that grows in clusters and comes in various colors.",
+        "image": "images/grapes.jpg",
+        "status": "not available",
+        "color": "purple",
+        "price": 3.00,
+        "season": "Summer"
+    },
+    {
+        "name": "Pineapple",
+        "description": "A tropical fruit with a sweet and tart flavor and a spiky exterior.",
+        "image": "images/pineapple.jpg",
+        "status": "available",
+        "color": "yellow",
+        "price": 1.50,
+        "season": "All time"
+    },
+    {
+        "name": "Watermelon",
+        "description": "A large, juicy fruit with a green rind and red interior, ideal for summer.",
+        "image": "images/watermelon.jpg",
+        "status": "not available",
+        "color": "green",
+        "price": 4.00,
+        "season": "Summer"
+    },
+    {
+        "name": "Blueberry",
+        "description": "A small, round berry that is high in antioxidants.",
+        "image": "images/blueberry.jpg",
+        "status": "available",
+        "color": "blue",
+        "price": 3.20,
+        "season": "Summer"
+    },
+    {
+        "name": "Mango",
+        "description": "A juicy, tropical fruit with a sweet, tangy flavor.",
+        "image": "images/mango.jpg",
+        "status": "available",
+        "color": "orange",
+        "price": 1.80,
+        "season": "Summer"
+    },
+    {
+        "name": "Pear",
+        "description": "A sweet, juicy fruit with a grainy texture and smooth skin.",
+        "image": "images/pear.jpg",
+        "status": "not available",
+        "color": "green",
+        "price": 1.10,
+        "season": "Winter"
+    },
+    {
+        "name": "Cherry",
+        "description": "A small, red fruit with a sweet flavor and a pit inside.",
+        "image": "images/cherry.jpg",
+        "status": "available",
+        "color": "red",
+        "price": 2.70,
+        "season": "Summer"
+    },
+    {
+        "name": "Kiwi",
+        "description": "A small, brown fruit with green flesh and a tangy flavor.",
+        "image": "images/kiwi.jpg",
+        "status": "available",
+        "color": "brown",
+        "price": 1.00,
+        "season": "All time"
+    }
+  ]
+  
