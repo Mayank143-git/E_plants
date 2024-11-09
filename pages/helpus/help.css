@@ -1,50 +1,215 @@
-*{
-    margin: 0px;
-    padding: 0px;
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
-nav{
-    width: 100%;
-    height: 50px;
-    line-height: 50px;
-    padding: 0px 100px;
-    position: fixed;
-    background-color: #004277;
-}
-nav ul{
-    float: left;
-    margin-left: 150px;
-}
-nav li{
-    display: inline-block;
-    list-style: none;
-}
-nav li a{
-    padding: 0px 30px;
-    margin-top: 10px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-}
-nav button{
-    background-color: #02ACFE;
-    color: white;
-    border-radius: 2px;
-    font-size: 16px;
-    border: none;
-    width: 80px;
-    height: 35px;
-    margin-left: 500px;
-    margin-top: 1px;
-    cursor: pointer;
-}
-img{
-    width: 100%;
-}
-.logo
-{
-    width: 45px;
-    height: 0px;
-    margin-top: 3px;
 
+/* Body Styling */
+body {
+    background-image: url(Leonardo_Phoenix_Create_a_stunning_hyperrealistic_photograph_f_0.jpg);
+    color: #f8f8f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    line-height: 1.6;
+    backdrop-filter: brightness(0.8);
+    background-size: cover;
 }
+
+/* Header Styling */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #e8e9ed;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #f8fafd;
+}
+
+/* Ways to Help Section */
+.ways-to-help {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.ways-to-help h2 {
+    font-size: 2em;
+    color: #f3f5f9;
+    margin-bottom: 20px;
+}
+
+.help-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    font-weight: 300;
+   
+    
+
+    }
+    
+
+
+    .card h1  
+    {
+        color:red;
+        text-decoration: none;
+    }
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    font-size: 1.5em;
+    color: #1a73e8;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1em;
+    color: #5f6368;
+}
+
+/* Contact Form Section */
+.contact-form {
+    width: 100%;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.contact-form h2 {
+    font-size: 2em;
+    color: #202124;
+    margin-bottom: 20px;
+}
+
+.contact-form p {
+    font-size: 1.1em;
+    color: #5f6368;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    font-size: 1em;
+    color: #202124;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.contact-form button {
+    background-color: #1a73e8;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.2s;
+}
+
+.contact-form button:hover {
+    background-color: #185abc;
+}
+
+.footer {margin-top: 12px;
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 0 20px;
+  }
+  
+  .footer-section h3 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    color: #ccc;
+    text-decoration: none;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #fff;
+  }
+  
+  .footer-section p {
+    color: #ccc;
+  }
+  
+  .footer-section .social a img {
+    width: 24px;
+    margin-right: 10px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #444;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ccc;
+  }
+  
+  .footer-bottom a {
+    color: #fff;
+    text-decoration: none;
+  }
