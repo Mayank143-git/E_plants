@@ -8,7 +8,9 @@ const dataPaths = {
 };
 
 const urlParams = new URLSearchParams(window.location.search);
+// console.log(urlParams);
 const category = urlParams.get('category');
+// console.log(category);
 
 if (category && dataPaths[category]) {
     fetchDataAndDisplay(category);
@@ -22,7 +24,7 @@ async function fetchDataAndDisplay(category) {
         const data = await response.json();
 
         let content = `<h2>${category.charAt(0).toUpperCase() + category.slice(1)} Data</h2>`;
-        // console.log(content);
+        console.log(content);
 
         data.forEach(item => {
             // Modified part: passing all necessary details in the URL as query parameters
