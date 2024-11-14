@@ -1,8 +1,7 @@
 // Slider.js
-debugger
 
 // Function to navigate to the common page with the selected category
-function navigateToCategory(category) {
+function ind(category) {
   // Correct path to navigate to common-page.html
   window.location.href = `../../pages/common/common-page.html?category=${category}`;
 }

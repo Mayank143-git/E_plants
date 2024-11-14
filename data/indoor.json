@@ -1,0 +1,40 @@
+
+     [
+      {
+        "name": "Snake Plant",
+        "price": 25.99,
+        "description": "A hardy indoor plant known for its tall, upright leaves and air-purifying qualities. Requires minimal care and can thrive in low light."
+      },
+      {
+        "name": "Peace Lily",
+        "price": 30.50,
+        "description": "A popular indoor plant with glossy green leaves and elegant white blooms. Prefers indirect light and regular watering."
+      },
+      {
+        "name": "Spider Plant",
+        "price": 15.00,
+        "description": "An easy-to-grow indoor plant with arching, green-and-white striped leaves. Great for beginners and low-maintenance environments."
+      },
+      {
+        "name": "Aloe Vera",
+        "price": 18.75,
+        "description": "A succulent indoor plant known for its medicinal properties. Needs bright, indirect sunlight and occasional watering."
+      },
+      {
+        "name": "ZZ Plant",
+        "price": 28.00,
+        "description": "A resilient indoor plant with waxy green leaves. Tolerates low light and infrequent watering, making it perfect for busy households."
+      },
+      {
+        "name": "Philodendron",
+        "price": 22.40,
+        "description": "A popular indoor plant with heart-shaped leaves. Thrives in low to bright indirect light and needs moderate watering."
+      },
+      {
+        "name": "Monstera Deliciosa",
+        "price": 35.99,
+        "description": "Also known as the Swiss Cheese Plant, it features large, fenestrated leaves. Prefers bright, indirect light and moderate humidity."
+      }
+    ]
+  
+  

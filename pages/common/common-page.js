@@ -2,7 +2,9 @@ const dataPaths = {
     fruits: '../../Data/fruit.json',
     vegetables: '../../Data/vegetable.json',
     fertilizers: '../../Data/fertilizers.json',
-    seasons: '../../Data/season.json'
+    seasons: '../../Data/season.json',
+    indoor: '../../Data/indoor.json',
+    outdoor: '../../Data/outdoor.json',
 };
 
 const urlParams = new URLSearchParams(window.location.search);
