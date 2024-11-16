@@ -3,32 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style> body
-    { background-image: url(photo.jpg); background-repeat: no-repeat; background-size: cover;
-    display: flex; justify-content: center; align-items: center;};
-    body img
-    {
-        height:400px
-    }
-
+    <title>Session Expiry Example</title>
+    <style> 
+        body {
+            background-image: url('photo.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .box img {
+            height: 400px;
+        }
     </style>
 </head>
 <body>
-    <div class="box">   <img src="WhatsApp Image 2024-11-05 at 11.52.30_f5152ed8.jpg" alt="">  </div>
-
-   
+    <div class="box">
+        <img src="WhatsApp Image 2024-11-05 at 11.52.30_f5152ed8.jpg" alt="Sample Image">
+    </div>
     
-    <script>   function showPhoto() {
-        const photo = window.location.href =" pay.html"
-        box.style.display = 'block';
+    <script>
+        // Function to show the alert and redirect
+        function showSessionExpired() {
+            alert("Session Expired");
+            window.location.href = "home.html"; // Change 'home.html' to your desired home page URL
+        }
 
-        // Hide the photo after 20 seconds
-        setTimeout(() => {
-            box.style.display = 'none';
-            alert("your time out")
-        }, 2000); // 20000 milliseconds = 20 seconds
-       
-    }</script>
+        // Set a timer for 20 seconds (20,000 milliseconds)
+        setTimeout(showSessionExpired, 10000);
+    </script>
 </body>
 </html>
