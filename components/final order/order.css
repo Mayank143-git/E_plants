@@ -1,0 +1,42 @@
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            background:url(photo.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+           
+        }
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 18px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: white;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        #photo {
+            display: none;
+            margin-top: 20px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            width: 300px;
+            height: auto;
+        }
+        .box
+        {
+            width:300px;
+            
+        }
+     
+        
