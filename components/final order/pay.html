@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session Expiry Example</title>
+    <style> 
+        body {
+            background-image: url('photo.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .box img {
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img src="WhatsApp Image 2024-11-05 at 11.52.30_f5152ed8.jpg" alt="Sample Image">
+    </div>
+    
+    <script>
+        // Function to show the alert and redirect
+        function showSessionExpired() {
+            alert("Session Expired");
+            window.location.href = "home.html"; // Change 'home.html' to your desired home page URL
+        }
+
+        // Set a timer for 20 seconds (20,000 milliseconds)
+        setTimeout(showSessionExpired, 10000);
+    </script>
+</body>
+</html>
