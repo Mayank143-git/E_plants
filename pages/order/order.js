@@ -36,3 +36,15 @@ function buyNow() {
     alert('Thank you for your purchase!');
     // You can implement redirection or other functionality here for the actual buy process.
 }
+
+
+// Load Navbar
+document.addEventListener("DOMContentLoaded", function () {
+    fetch('../../components/Navbar/navbar.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('navbar-container').innerHTML = data;
+        })
+        .catch(error => console.error('Error loading navbar:', error));
+  });
+  

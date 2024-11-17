@@ -1,33 +1,57 @@
-/* Styling for order page */
+/* General styling for the order page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+/* Navbar container */
+#navbar-container {
+    margin-bottom: 20px;
+}
+
+/* Order container styles */
 .order-container {
     display: flex;
     justify-content: space-between;
     margin: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
 }
 
+/* Image styling */
 .order-container img {
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    height: auto;
+    max-width: 300px;
     object-fit: cover;
     border-radius: 10px;
 }
 
+/* Order details styling */
 .order-details {
     flex: 1;
-    padding-left: 20px;
+    padding: 20px;
 }
 
 .order-details h3 {
     font-size: 24px;
+    color: #333;
 }
 
 .order-details p {
-    font-size: 18px;
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
 }
 
 .order-details .price {
     font-size: 20px;
     color: #4CAF50;
+    margin-top: 10px;
 }
 
 .order-details button {
@@ -39,8 +63,79 @@
     border-radius: 5px;
     font-size: 16px;
     margin-top: 20px;
+    width: 100%;
+    max-width: 200px;
+    transition: background-color 0.3s ease;
 }
 
 .order-details button:hover {
     background-color: #45a049;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 1200px) {
+    .order-container {
+        flex-direction: row;
+        margin: 15px;
+    }
+
+    .order-container img {
+        max-width: 250px;
+    }
+
+    .order-details h3 {
+        font-size: 22px;
+    }
+
+    .order-details p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .order-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .order-container img {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .order-details {
+        padding: 15px;
+    }
+
+    .order-details h3 {
+        font-size: 20px;
+    }
+
+    .order-details p {
+        font-size: 14px;
+    }
+
+    .order-details .price {
+        font-size: 18px;
+    }
+
+    .order-details button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .order-details h3 {
+        font-size: 18px;
+    }
+
+    .order-details p {
+        font-size: 13px;
+    }
+
+    .order-details button {
+        padding: 12px;
+        font-size: 14px;
+    }
 }

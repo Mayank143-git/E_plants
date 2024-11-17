@@ -1,59 +1,63 @@
-/* Modal Styles */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.modal-content {
-    background-color: white;
-    margin: 10% auto;
-    padding: 20px;
-    border-radius: 5px;
-    width: 300px;
-    text-align: center;
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
 }
 
-.close-btn {
-    color: #aaa;
-    font-size: 28px;
-    font-weight: bold;
-    position: absolute;
-    right: 10px;
-    top: 5px;
+/* Form container */
+.form-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
 }
 
-.close-btn:hover,
-.close-btn:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
+/* Heading styling */
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 
-form input[type="text"],
-form input[type="email"] {
+/* Form input fields */
+input[type="text"],
+input[type="email"],
+textarea {
     width: 100%;
     padding: 10px;
-    margin: 10px 0;
+    margin-bottom: 15px;
     border-radius: 4px;
     border: 1px solid #ccc;
 }
 
-form input[type="submit"] {
-    background-color: #4CAF50;
+/* Button styling */
+button[type="submit"] {
+    background-color: #007bff;
     color: white;
     padding: 10px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    width: 100%;
 }
 
-form input[type="submit"]:hover {
-    background-color: #45a049;
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+    .form-container {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
 }

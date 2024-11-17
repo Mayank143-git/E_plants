@@ -1,3 +1,17 @@
+/* Reset box model and margin */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for the heading */
+h2 {
+    text-align: center;
+    margin-bottom: 20px; /* Space between heading and cards */
+    font-size: 24px;
+}
+
 /* Styling for the cards */
 .card {
     border: 1px solid #ddd;
@@ -5,13 +19,22 @@
     margin: 15px;
     border-radius: 10px;
     text-align: center;
-    width: 250px; /* Set a fixed width */
-    height: 350px; /* Set a fixed height */
-    display: inline-block;
-    box-sizing: border-box; /* Ensures padding and borders don't affect the width/height */
-    overflow: hidden; /* Ensure content doesn't overflow the card */
+    width: 100%; /* Full width for flexibility */
+    max-width: 250px; /* Set a max width for the cards */
+    height: 350px; /* Set a fixed height for uniformity */
+    display: flex;
+    flex-direction: column; /* Ensures the content stacks */
+    align-items: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: transform 0.3s ease; /* Smooth hover effect */
 }
 
+.card:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+/* Image styling */
 .card img {
     width: 100%;
     height: 200px; /* Fixed height for image */
@@ -19,15 +42,21 @@
     border-radius: 10px;
 }
 
+/* Card title styling */
 .card h3 {
     font-size: 18px;
     margin: 10px 0;
+    font-weight: bold;
 }
 
+/* Description styling */
 .card p {
     font-size: 14px;
+    margin-bottom: 10px;
+    color: #555;
 }
 
+/* Button styling */
 .card button {
     background-color: #4CAF50;
     color: white;
@@ -37,37 +66,42 @@
     border-radius: 5px;
     margin-top: 10px;
     width: 100%; /* Ensure button takes full width of the card */
+    text-align: center; /* Center the button text */
+    display: inline-block; /* Ensure it's inline inside the card */
 }
 
 .card button:hover {
     background-color: #45a049;
 }
 
-/* Make the cards responsive */
+
+/* Layout for category content */
+#category-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+}
+
+/* Responsive for tablets and smaller screens */
 @media (max-width: 1024px) {
     .card {
-        width: 220px; /* Decrease width on smaller screens */
-        height: 320px; /* Decrease height on smaller screens */
+        max-width: 220px; /* Decrease width on tablets */
+        height: 320px; /* Adjust height */
     }
 }
 
 @media (max-width: 768px) {
     .card {
-        width: 200px; /* Decrease width further on smaller tablets */
+        max-width: 200px; /* Decrease width further on tablets */
         height: 300px; /* Adjust height */
     }
 }
 
 @media (max-width: 480px) {
     .card {
-        width: 180px; /* Decrease width for small mobile devices */
-        height: 280px; /* Adjust height for mobile */
+        max-width: 180px; /* Decrease width on mobile */
+        height: 280px; /* Adjust height */
     }
-}
-
-/* Container for cards to allow proper wrapping */
-#category-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; /* Center the cards in the container */
 }

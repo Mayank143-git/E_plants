@@ -1,21 +1,8 @@
-// Get modal and button elements
-var modal = document.getElementById("modal");
-var openModalBtn = document.getElementById("openModalBtn");
-var closeModalBtn = document.getElementById("closeModalBtn");
+// form.js: Handles form submission and redirects
 
-// Open the modal when the button is clicked
-openModalBtn.onclick = function() {
-    modal.style.display = "block";
-}
+document.querySelector("form").addEventListener("submit", function (e) {
+    e.preventDefault(); // Prevent default form submission
 
-// Close the modal when the close button (X) is clicked
-closeModalBtn.onclick = function() {
-    modal.style.display = "none";
-}
-
-// Close the modal if the user clicks outside the modal content
-window.onclick = function(event) {
-    if (event.target === modal) {
-        modal.style.display = "none";
-    }
-}
+    // Redirect to finalorder.html after form submission
+    window.location.href = "../finalorder/finalorder.html";
+});

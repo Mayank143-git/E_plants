@@ -2,7 +2,7 @@
     {
         "name": "Apple",
         "description": "A crisp, sweet red fruit high in fiber and vitamins.",
-        "image": "images/apple.jpg",
+        "image": "https://imgs.search.brave.com/rXeE8JJSzmYsiNoRFjSYcy-mRb2CiMhtwBkqXGPxHJQ/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9nYXJk/ZW5lcnNwYXRoLmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAy/My8wOS9XaGljaC1B/cHBsZS1UeXBlcy10/by1QbGFudC1Ub2dl/dGhlci0yLmpwZw",
         "status": "available",
         "color": "red",
         "price": 1.20,
@@ -11,7 +11,7 @@
     {
         "name": "Banana",
         "description": "A soft, tropical fruit rich in potassium.",
-        "image": "images/banana.jpg",
+        "image": "https://imgs.search.brave.com/zn1Lg21fiDzOMPf-ex5xIpto_RX_FFz7VepEsUgC3KM/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTU3/MzEwMDc2L3Bob3Rv/L2JhbmFuYS1idW5j/aC5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9bHBKam9ENEN6/bFp1OURmSzgxSlpY/NGJRelR4eE9jZWxU/RHdJRmtkMVpPbz0",
         "status": "available",
         "color": "yellow",
         "price": 0.50,
@@ -20,7 +20,7 @@
     {
         "name": "Orange",
         "description": "A juicy citrus fruit full of vitamin C.",
-        "image": "images/orange.jpg",
+        "image": "https://imgs.search.brave.com/xORaLuzI7sk6LMilgtX1H6bcXm_eXWxfVWRxUzKtpCM/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTI5/NTQ0MTQ3OC9waG90/by9jaXRydXMtb3Jh/bmdlcy1ncm93LW9u/LXRyZWUuanBnP3M9/NjEyeDYxMiZ3PTAm/az0yMCZjPWpmMGwt/Yy1TWGpQYm1ib3Fs/Mng2LUVJY0NqSFI0/NUlvSTBRSzhqSUJ3/amM9",
         "status": "available",
         "color": "orange",
         "price": 0.80,
@@ -29,7 +29,7 @@
     {
         "name": "Strawberry",
         "description": "A small, red, sweet fruit with tiny seeds on the outside.",
-        "image": "images/strawberry.jpg",
+        "image": "https://imgs.search.brave.com/mB8Q14OcGgoM_AkNWAjDnQvYrlkYUWW-Z9pMzrZ4Lgg/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTcx/MzA4MTczL3Bob3Rv/L2ZyZXNoLW9yZ2Fu/aWMtc3RyYXdiZXJy/eS5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9Ny1rQ3BkeFVM/QlFjcEZqNHJ2R2FM/U0o5WllaV2o3S0hJ/WGhIbzZNN1J1cz0",
         "status": "available",
         "color": "red",
         "price": 2.50,
@@ -38,7 +38,7 @@
     {
         "name": "Grapes",
         "description": "A small, juicy fruit that grows in clusters and comes in various colors.",
-        "image": "images/grapes.jpg",
+        "image": "https://imgs.search.brave.com/A5--DkOrwh0ALkvv35iVzRAmKuiJheN0EwOTbmclLqA/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bW9ucm92aWEuY29t/L21lZGlhL2FtYXN0/eS9ibG9nLzEwMjR4/NTc3X3NodXR0ZXJz/dG9ja180ODEyMzg1/NjNfY29weS5qcGc",
         "status": "not available",
         "color": "purple",
         "price": 3.00,
@@ -47,7 +47,7 @@
     {
         "name": "Pineapple",
         "description": "A tropical fruit with a sweet and tart flavor and a spiky exterior.",
-        "image": "images/pineapple.jpg",
+        "image": "https://imgs.search.brave.com/GCvP16lbhnGh1t2A-CFoRAFNMZY1oUjF0WKFGBNOvcM/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTcz/OTAwMDgwL3Bob3Rv/L2EtcmlwZS1waW5l/YXBwbGUtZ3Jvd2lu/Zy1vbi10aGUtcGxh/bnQuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPXpwdG9vUjU1/MW41N2RYR3JHbnpq/TGRsc1ludmd0T0lw/eWZmLXN0ZVNyekU9",
         "status": "available",
         "color": "yellow",
         "price": 1.50,
@@ -56,7 +56,7 @@
     {
         "name": "Watermelon",
         "description": "A large, juicy fruit with a green rind and red interior, ideal for summer.",
-        "image": "images/watermelon.jpg",
+        "image": "https://imgs.search.brave.com/CQXUO5ywXWGDrrEYNevUp4YKeGJ4u1fG5Hd4WO18tTI/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTE1/NjUxOTYyNi9waG90/by93YXRlcm1lbG9u/LXBsYW50cy1pbi1o/b21lLWdhcmRlbi5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/TllXcHRhUHphRXJy/MGVTT3RMRXlRMUk5/ZnhvbkJzRnhBNThW/dUFKcGhkbz0",
         "status": "not available",
         "color": "green",
         "price": 4.00,
