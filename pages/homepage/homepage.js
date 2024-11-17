@@ -27,3 +27,13 @@ document.addEventListener("DOMContentLoaded", function () {
       })
       .catch(error => console.error('Error loading slider:', error));
 });
+
+// Mover Slider
+document.addEventListener("DOMContentLoaded", function () {
+    fetch('../../components/Mover/Mover.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('mover-container').innerHTML = data;
+        })
+        .catch(error => console.error('Error loading slider:', error));
+  });
