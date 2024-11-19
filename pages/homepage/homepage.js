@@ -37,3 +37,13 @@ document.addEventListener("DOMContentLoaded", function () {
         })
         .catch(error => console.error('Error loading slider:', error));
   });
+
+  // Mover Slider
+document.addEventListener("DOMContentLoaded", function () {
+    fetch('../../components/footer/footer.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('footer-container').innerHTML = data;
+        })
+        .catch(error => console.error('Error loading slider:', error));
+  });
