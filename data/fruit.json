@@ -65,7 +65,7 @@
     {
         "name": "Blueberry",
         "description": "A small, round berry that is high in antioxidants.",
-        "image": "images/blueberry.jpg",
+        "image": "https://avatars.mds.yandex.net/i?id=2725e4076740a704a4000bd8dd3368734b2efa65-6467438-images-thumbs&n=13",
         "status": "available",
         "color": "blue",
         "price": 3.20,
@@ -74,7 +74,7 @@
     {
         "name": "Mango",
         "description": "A juicy, tropical fruit with a sweet, tangy flavor.",
-        "image": "images/mango.jpg",
+        "image": "https://avatars.mds.yandex.net/i?id=25ea528fccab0b5341f90cd3df58425fb32dd9e6-12615842-images-thumbs&n=13",
         "status": "available",
         "color": "orange",
         "price": 1.80,
@@ -83,7 +83,7 @@
     {
         "name": "Pear",
         "description": "A sweet, juicy fruit with a grainy texture and smooth skin.",
-        "image": "images/pear.jpg",
+        "image": "https://avatars.mds.yandex.net/i?id=9e4e42190a1508e25545ab3bbc08226310492ba1-10767434-images-thumbs&n=13",
         "status": "not available",
         "color": "green",
         "price": 1.10,
@@ -92,7 +92,7 @@
     {
         "name": "Cherry",
         "description": "A small, red fruit with a sweet flavor and a pit inside.",
-        "image": "images/cherry.jpg",
+        "image": "https://avatars.mds.yandex.net/i?id=ed578735ef3f4979aa079828c5d84ae3c0000ed6dcdf400d-13112846-images-thumbs&n=13",
         "status": "available",
         "color": "red",
         "price": 2.70,
@@ -101,7 +101,7 @@
     {
         "name": "Kiwi",
         "description": "A small, brown fruit with green flesh and a tangy flavor.",
-        "image": "images/kiwi.jpg",
+        "image": "https://avatars.mds.yandex.net/i?id=f3eb99e2de4168425bc604b6ae8372bedf1cd776-5340565-images-thumbs&n=13",
         "status": "available",
         "color": "brown",
         "price": 1.00,

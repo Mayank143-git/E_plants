@@ -1,70 +1,70 @@
 [
     {
       "name": "Winter Jasmine",
-      "image": "https://via.placeholder.com/200x200?text=Winter+Jasmine",
+      "image": "https://avatars.mds.yandex.net/i?id=4d0644592d330b76960494773e5feaa6d37760a0-12147736-images-thumbs&n=13",
       "description": "A hardy, fragrant shrub that blooms in the winter months.",
       "season": "Winter",
       "price": 15.99
     },
     {
       "name": "Pansy",
-      "image": "https://via.placeholder.com/200x200?text=Pansy",
+      "image": "https://avatars.mds.yandex.net/i?id=2ab1e07c7af764d75c8a8da688a97a4adc3ae01a-10245177-images-thumbs&n=13",
       "description": "A colorful flower that thrives in the cooler months of winter and early spring.",
       "season": "Winter",
       "price": 12.49
     },
     {
       "name": "Primrose",
-      "image": "https://via.placeholder.com/200x200?text=Primrose",
+      "image": "https://avatars.mds.yandex.net/i?id=490c1c668d6ad70817a01eb89737cdada0f7bfed-4955124-images-thumbs&n=13",
       "description": "Bright, early-blooming flowers that are perfect for spring gardens.",
       "season": "Spring",
       "price": 10.99
     },
     {
       "name": "Tulip",
-      "image": "https://via.placeholder.com/200x200?text=Tulip",
+      "image": "https://avatars.mds.yandex.net/i?id=70b85389bd282ee0215f089a3dfecac481572d0e-9182206-images-thumbs&n=13",
       "description": "A popular spring flower with vibrant petals in many colors.",
       "season": "Spring",
       "price": 14.75
     },
     {
       "name": "Sunflower",
-      "image": "https://via.placeholder.com/200x200?text=Sunflower",
+      "image": "https://avatars.mds.yandex.net/i?id=11f223ef445ba6c62823fda94f05375f4991ff87-3521391-images-thumbs&n=13",
       "description": "Large, bright yellow flowers that grow best in the summer heat.",
       "season": "Summer",
       "price": 9.99
     },
     {
       "name": "Marigold",
-      "image": "https://via.placeholder.com/200x200?text=Marigold",
+      "image": "https://avatars.mds.yandex.net/i?id=c6e22729cc6e67e87ac6f309ac2ab1613e91fb17-8240493-images-thumbs&n=13",
       "description": "Hardy, easy-to-grow flowers that bloom in summer and early fall.",
       "season": "Summer",
       "price": 8.49
     },
     {
       "name": "Chrysanthemum",
-      "image": "https://via.placeholder.com/200x200?text=Chrysanthemum",
+      "image": "https://avatars.mds.yandex.net/i?id=ddcd832f999bdcc14115861ef619fb0b197c6688-13316175-images-thumbs&n=13",
       "description": "A late-blooming flower that is often seen in the fall, perfect for the cooler weather.",
       "season": "Fall",
       "price": 16.99
     },
     {
       "name": "Holly",
-      "image": "https://via.placeholder.com/200x200?text=Holly",
+      "image": "https://avatars.mds.yandex.net/i?id=db151052b92b584aec8dc4ecc1f7b85578401d15-10877992-images-thumbs&n=13",
       "description": "An evergreen shrub with red berries, ideal for winter decoration.",
       "season": "Winter",
       "price": 18.50
     },
     {
       "name": "Crocus",
-      "image": "https://via.placeholder.com/200x200?text=Crocus",
+      "image": "https://avatars.mds.yandex.net/i?id=7a3b67d0b2d6ef5ec1bdfc23d5c7b3e306332942-5232078-images-thumbs&n=13",
       "description": "One of the first flowers to bloom in spring, signaling the end of winter.",
       "season": "Spring",
       "price": 11.25
     },
     {
       "name": "Lavender",
-      "image": "https://via.placeholder.com/200x200?text=Lavender",
+      "image": "https://avatars.mds.yandex.net/i?id=421c7070993263c06e9cb1ed05059cf4e7c9f990-5255429-images-thumbs&n=13",
       "description": "A fragrant, hardy plant that thrives in the summer sun.",
       "season": "Summer",
       "price": 20.00
