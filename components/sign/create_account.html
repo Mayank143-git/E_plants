@@ -4,11 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>Login</title>
+  <title>Create Account</title>
 </head>
 <body>
   <div class="container">
-    <h1>Login</h1>
+    <h1>Create Account</h1>
     <form>
       <label for="email">Email</label>
       <input type="email" id="email" name="email" required>
@@ -16,9 +16,12 @@
       <label for="password">Password</label>
       <input type="password" id="password" name="password" required>
       
-      <button type="submit" class="btn">Login</button>
+      <label for="confirm-password">Confirm Password</label>
+      <input type="password" id="confirm-password" name="confirm-password" required>
+      
+      <button type="submit" class="btn">Create Account</button>
     </form>
-    <p>Don't have an account? <a href="create_account.html">Create an Account</a></p>
+    <p>Already have an account? <a href="login.html">Login</a></p>
   </div>
   <script src="script.js"></script>
 </body>
