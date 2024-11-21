@@ -13,49 +13,49 @@
     },
     {
       "name": "Phosphorus Fertilizer",
-      "image": "https://via.placeholder.com/200x200?text=Phosphorus+Fertilizer",
+      "image": "https://avatars.mds.yandex.net/i?id=5c375e60511bf40eced4f63ee2c5ad15a3bdc5de-4463669-images-thumbs&n=13",
       "description": "Rich in phosphorus, this fertilizer supports root and flower development.",
       "price": 22.75
     },
     {
       "name": "Potassium Fertilizer",
-      "image": "https://via.placeholder.com/200x200?text=Potassium+Fertilizer",
+      "image": "https://avatars.mds.yandex.net/i?id=cc83878dc27359d95ed7a5dfe74e4adc5a05e57c-10339875-images-thumbs&n=13",
       "description": "This fertilizer boosts plant immunity and fruit production.",
       "price": 20.00
     },
     {
       "name": "Compost Fertilizer",
-      "image": "https://via.placeholder.com/200x200?text=Compost+Fertilizer",
+      "image": "https://avatars.mds.yandex.net/i?id=619e279fc5c2175aadc7e1ad7a379a3a372037aa-9706270-images-thumbs&n=13",
       "description": "A rich compost fertilizer that improves soil structure and nutrient content.",
       "price": 15.99
     },
     {
       "name": "Slow Release Fertilizer",
-      "image": "https://via.placeholder.com/200x200?text=Slow+Release+Fertilizer",
+      "image": "https://specialtysurfactants.arkema.com/files/live/sites/specialtysurfactants_arkema/files/Coloring%20Agents_Black%202%20-%20resized.jpg",
       "description": "Fertilizer that slowly releases nutrients over time for continuous growth.",
       "price": 30.99
     },
     {
       "name": "Fish Emulsion Fertilizer",
-      "image": "https://via.placeholder.com/200x200?text=Fish+Emulsion+Fertilizer",
+      "image": "https://avatars.mds.yandex.net/i?id=e0b2ba7e2770e2b4f3d3a45028178c7452c0aca2-8310669-images-thumbs&n=13",
       "description": "A liquid fertilizer made from fish, providing essential nutrients for plants.",
       "price": 19.99
     },
     {
       "name": "Bone Meal Fertilizer",
-      "image": "https://via.placeholder.com/200x200?text=Bone+Meal+Fertilizer",
+      "image": "https://avatars.mds.yandex.net/i?id=7d2349dfdd940e00bd752d49a01e830e3d6e245c-5227714-images-thumbs&n=13",
       "description": "High in calcium and phosphorus, this fertilizer strengthens plants and promotes flowering.",
       "price": 24.50
     },
     {
       "name": "Liquid Fertilizer",
-      "image": "https://via.placeholder.com/200x200?text=Liquid+Fertilizer",
+      "image": "https://avatars.mds.yandex.net/i?id=1e096fe409a69e42367e4b5098b51977cceae776-8428826-images-thumbs&n=13",
       "description": "Liquid fertilizer for quick nutrient absorption, ideal for hydroponics.",
       "price": 21.75
     },
     {
       "name": "Worm Castings Fertilizer",
-      "image": "https://via.placeholder.com/200x200?text=Worm+Castings+Fertilizer",
+      "image": "https://avatars.mds.yandex.net/i?id=8c882769e83028ffc3fb1f58c07f89f7aa3a728e2b617107-5679437-images-thumbs&n=13",
       "description": "A natural and organic fertilizer made from worm castings, perfect for enriching soil.",
       "price": 27.99
     }

@@ -3,36 +3,43 @@
       {
         "name": "Snake Plant",
         "price": 25.99,
+        "image": "   https://avatars.mds.yandex.net/i?id=58b11785c38ebd80107eec09e8c1b2903572fddf-5878385-images-thumbs&n=13  ",
         "description": "A hardy indoor plant known for its tall, upright leaves and air-purifying qualities. Requires minimal care and can thrive in low light."
       },
       {
         "name": "Peace Lily",
         "price": 30.50,
+        "image": "https://avatars.mds.yandex.net/i?id=2bee2b6438c0259df8ed86bc1324adcb58db3094-10995124-images-thumbs&n=13     ",
         "description": "A popular indoor plant with glossy green leaves and elegant white blooms. Prefers indirect light and regular watering."
       },
       {
         "name": "Spider Plant",
         "price": 15.00,
+        "image": "https://avatars.mds.yandex.net/i?id=c72aca61a0dd7885fbf1aa5562d16cd2cf83749d-9683181-images-thumbs&n=13    ",
         "description": "An easy-to-grow indoor plant with arching, green-and-white striped leaves. Great for beginners and low-maintenance environments."
       },
       {
         "name": "Aloe Vera",
         "price": 18.75,
+        "image": "  https://avatars.mds.yandex.net/i?id=38e2d5fe79c1d224c17dd25fc2cf435a5083927587f69967-2415930-images-thumbs&n=13   ",
         "description": "A succulent indoor plant known for its medicinal properties. Needs bright, indirect sunlight and occasional watering."
       },
       {
         "name": "ZZ Plant",
         "price": 28.00,
+        "image": "  https://avatars.mds.yandex.net/i?id=d433461712979cbc0441d11fc1da0e11b25ce486fd1d3389-9211711-images-thumbs&n=13   ",
         "description": "A resilient indoor plant with waxy green leaves. Tolerates low light and infrequent watering, making it perfect for busy households."
       },
       {
         "name": "Philodendron",
         "price": 22.40,
+        "image": " https://avatars.mds.yandex.net/i?id=ff5aebb1c98c8e045fc942153a41b3ff1268d873-5234859-images-thumbs&n=13    ",
         "description": "A popular indoor plant with heart-shaped leaves. Thrives in low to bright indirect light and needs moderate watering."
       },
       {
         "name": "Monstera Deliciosa",
         "price": 35.99,
+        "image": "https://avatars.mds.yandex.net/i?id=6b53537422d05e3b3f3d39eb3270a0b02c45060c-9221149-images-thumbs&n=13     ",
         "description": "Also known as the Swiss Cheese Plant, it features large, fenestrated leaves. Prefers bright, indirect light and moderate humidity."
       }
     ]

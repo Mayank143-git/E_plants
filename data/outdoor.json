@@ -2,41 +2,49 @@
       {
         "name": "Rose Bush",
         "price": 45.00,
+         "image": " https://avatars.mds.yandex.net/i?id=f71a4dd24a786b2443787e599f79ad0fa0a8ac2d-9869529-images-thumbs&n=13  ",
         "description": "A classic outdoor plant with vibrant, fragrant blooms. Available in a variety of colors and perfect for garden borders and landscaping."
       },
       {
         "name": "Lavender",
         "price": 20.75,
+        "image": "   https://avatars.mds.yandex.net/i?id=4510aa2f6b5b0fadb575ddf5d43f7c7a-7065890-images-thumbs&n=13",
         "description": "A fragrant herb known for its purple flowers and calming scent. Attracts pollinators like bees and butterflies and thrives in full sun."
       },
       {
         "name": "Hibiscus",
         "price": 35.00,
+        "image": " https://avatars.mds.yandex.net/i?id=ea473e64feb29297a99106fac6bb8354f16b0618-8497167-images-thumbs&n=13  ",
         "description": "A tropical plant with large, colorful flowers. Ideal for adding a vibrant touch to gardens and can attract hummingbirds."
       },
       {
         "name": "Bougainvillea",
         "price": 50.00,
+        "image": " https://avatars.mds.yandex.net/i?id=cc44f636a06d3403ea8aa0cf384f170196a7db4e-10289673-images-thumbs&n=13  ",
         "description": "A hardy outdoor plant known for its bright, papery bracts in vivid shades of pink, purple, and red. Prefers full sun and well-drained soil."
       },
       {
         "name": "Jasmine",
         "price": 28.50,
+        "image": " https://avatars.mds.yandex.net/i?id=404d1758fb6b5c6cb3e25d13067135049ea2b99d-8252971-images-thumbs&n=13  ",
         "description": "An outdoor plant with sweetly scented white or yellow flowers. Perfect for climbing trellises or walls, requiring full to partial sunlight."
       },
       {
         "name": "Gardenia",
         "price": 32.99,
+        "image": " https://avatars.mds.yandex.net/i?id=871bea3f9afb714d418a4e6e3696b874b764035b-12803937-images-thumbs&n=13  ",
         "description": "An evergreen shrub with glossy leaves and creamy white flowers. Known for its strong fragrance and best grown in partial shade."
       },
       {
         "name": "Marigold",
         "price": 10.00,
+        "image": "  https://avatars.mds.yandex.net/i?id=1e2737e3535d9bbfcc1587ecdea2d348e08926b4-4809531-images-thumbs&n=13 ",
         "description": "A low-maintenance annual with bright orange and yellow blooms. Repels pests and is excellent for garden borders or pots."
       },
       {
         "name": "Hydrangea",
         "price": 40.00,
+        "image": " https://avatars.mds.yandex.net/i?id=f128534e7ffdc5fb22c45ec42fc47155de41297d-5558053-images-thumbs&n=13  ",
         "description": "A popular outdoor shrub with large clusters of flowers in shades of pink, blue, or white. Prefers partial shade and well-watered soil."
       }
     ]
