@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, sans-serif;
+  
 }
 
 /* Body Styling */
@@ -15,9 +16,14 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
+  
   line-height: 1.6;
+<<<<<<< HEAD
 
+=======
+  backdrop-filter: brightness(-0.5);
+    backdrop-filter: blur(6px)
+>>>>>>> 3e8905caea044b34f899f052894dccd8011c7821
 }
 
 /* Header Styling */
