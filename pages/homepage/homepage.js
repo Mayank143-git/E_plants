@@ -28,17 +28,20 @@ document.addEventListener("DOMContentLoaded", function () {
       .catch(error => console.error('Error loading slider:', error));
 });
 
-// Mover Slider
+// Mover 
 document.addEventListener("DOMContentLoaded", function () {
     fetch('../../components/Mover/Mover.html')
         .then(response => response.text())
         .then(data => {
             document.getElementById('mover-container').innerHTML = data;
+            console.log("hi")
         })
         .catch(error => console.error('Error loading slider:', error));
+        console.log("hi fi")
+
   });
 
-  // Mover Slider
+  // footer Slider
 document.addEventListener("DOMContentLoaded", function () {
     fetch('../../components/footer/footer.html')
         .then(response => response.text())
