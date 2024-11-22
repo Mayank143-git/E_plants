@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+
 }
 
   .about-banner {
@@ -19,11 +20,16 @@
   .about-banner p {
     font-size: 1.5rem;
   }
+
+  .box{
+    background: url('../../images/4002676.jpg') no-repeat center center/cover;
+  }
   
   .container {
     width: 80%;
     margin: 40px auto;
     padding: 20px;
+    
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
