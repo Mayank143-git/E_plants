@@ -11,6 +11,7 @@
 body {
   background-image: url('Leonardo_Phoenix_Create_a_stunning_hyperrealistic_photograph_f_0.jpg');
   background-size: cover;
+  
   background-position: center;
   color: #f8f8f9;
   display: flex;
@@ -140,12 +141,17 @@ header p {
   background-color: #185abc;
 }
 
+
+
+
+
 /* Footer Styling */
 .footer {
   background-color: #333;
   color: #fff;
   padding: 40px 20px;
   width: 100%;
+  margin-top: 30px;
 }
 
 .footer-container {
