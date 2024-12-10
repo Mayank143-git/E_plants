@@ -31,17 +31,34 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 // Mover 
+// document.addEventListener("DOMContentLoaded", function () {
+//     fetch('../../components/Mover/Mover.html')
+//         .then(response => response.text())
+//         .then(data => {
+//             document.getElementById('mover-container').innerHTML = data;
+//             console.log("hi")
+//         })
+//         .catch(error => console.error('Error loading slider:', error));
+//         console.log("hi fi")
+
+//   });
+// Mover 
 document.addEventListener("DOMContentLoaded", function () {
     fetch('../../components/Mover/Mover.html')
         .then(response => response.text())
         .then(data => {
             document.getElementById('mover-container').innerHTML = data;
-            console.log("hi")
-        })
-        .catch(error => console.error('Error loading slider:', error));
-        console.log("hi fi")
+            console.log("hi");
 
-  });
+            // Dynamically add the move.js script
+            const script = document.createElement('script');
+            script.src = '../../components/Mover/move.js';
+            document.body.appendChild(script);
+        })
+        .catch(error => console.error('Error loading Mover:', error));
+        console.log("hi fi")
+});
+
 
   // footer Slider
 document.addEventListener("DOMContentLoaded", function () {
